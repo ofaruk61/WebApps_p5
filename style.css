@@ -2,6 +2,7 @@ html,
 body {
     margin: 0;
     padding: 0;
+    background-color: lightsteelblue;
     width: 100%;
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -96,15 +97,12 @@ nav .side {
     display: flex;
     flex-direction: column;
 }
-
 .item3-sol {
     flex: 1;
 }
-
 .item3-sag {
     flex: 1;
 }
-
 .item4 {
     grid-area: right;
     padding: 15px;
@@ -113,19 +111,15 @@ nav .side {
     font-size: 22px;
     border-radius: 10px;
 }
-
 .item5 {
     grid-area: footer;
     text-align: center;
-    background-color: rgba(133, 93, 93, 0.5);
     color: white;
     font-size: 22px;
-    border-radius: 10px;
 }
 .grid-container {
     display: grid;
     gap: 15px;
-    background-color: lightsteelblue;
     height: 100%;
     grid-template-rows: 90px auto 50px;
     grid-template-areas:
@@ -167,7 +161,7 @@ nav .side {
 
     .nav-link {
         position: absolute;
-        background: rgba(184, 81, 81, 1);
+        background: rgba(184, 81, 81, .7);
         height: 55vh;
         width: 200px;
         top: 0;
