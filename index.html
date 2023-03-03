@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sadece html kodlarıyla web sitesi yapımı</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Titan+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="grid-container">
+        <section class="item1">
+            <nav>
+                <a href="index.html" id="logo">LOGO</a>
+                <div class="nav-link" id="navLink">
+                    <span class="material-symbols-outlined side" onclick="hideMenu()">
+                        close
+                    </span>
+                    <ul>
+                        <li><a href="#">KADROMUZ</a></li>
+                        <li><a href="#">ÖĞRENCİ</a></li>
+                        <li><a href="#">ALANLAR</a></li>
+                        <li><a href="#">PROJELER</a></li>
+                        <li><a href="#">İLETİŞİM</a></li>
+                    </ul>
+                </div>
+                <span class="material-symbols-outlined side" onclick="showMenu()">
+                    menu
+                </span>
+            </nav>
+        </section>
+        <div class="item2">
+            <h1> <span class="material-symbols-outlined" style="color: #771212 ; font-size: 32px; vertical-align: bottom;">
+                fiber_new
+                </span> HABERLER</h1>
+            <ul>
+                <li><a href="#">Şehrin kurtuluşu törenle kutlandı.</a></li>
+                <li><a href="#">Okul aile birliği toplantısı yapıldı</a></li>
+                <li><a href="#">Kardeşlerimiz ısınıyor kampanyamız</a></li>
+                <li><a href="#">Bilgilendirme semineri</a></li>
+            </ul>
+        </div>
+        <div class="item3">
+            <h1> <span class="material-symbols-outlined" style="color: #771212 ; font-size: 32px; vertical-align: bottom;";>
+                comment
+                </span> OKULUMUZ</h1>
+            <p>
+                Şu an hizmet vermekte olan okul 2004 yılında eğitim öğretime açılmıştır. Okul bünyesinde 9 sınıf
+                mevcut olup müdür odası, müdür yardımcısı odası, öğretmen odası, araç- gereç odası, bilişim
+                teknolojileri sınıfı, harita odası, TV odası, fen sınıfı, kütüphane, çok amaçlı salon, mutfak,
+                hizmetli odası olarak çok yönlü hizmet vermektedir. Okulda şu an 11 öğretmen, 1 müdür, 2
+                hizmetli görev yapmaktadır.
+            </p>
+        </div>
+        <div class="item4">
+            <h1> <span class="material-symbols-outlined" style="color: #771212 ; font-size: 32px; vertical-align: bottom;">
+                ring_volume
+                </span> DUYURULAR</h1>
+            <div class="item3-alt">
+                <div class="item3-sol">OKUL İÇİ
+                    <ul>
+                        <li><a href="#">Ara dönem sorumluluk sınav tarihleri</a></li>
+                        <li><a href="#">Ocak ayı disiplin kurulu kararları</a></li>
+                        <li><a href="#">Yeni ders saatleri çizelgesi</a></li>
+                        <li><a href="#">Halk oyunları grubu öğreci seçmeleri</a></li>
+                    </ul>
+                </div>
+                <div class="item3-sag">OKUL DIŞI
+                    <ul>
+                        <li><a href="#">PYBS duyurusu</a></li>
+                        <li><a href="#">Okullar arası satranç turnuvası</a></li>
+                        <li><a href="#">Kar tatili</a></li>
+                        <li><a href="#"> İl MEM Çanakkale gezisi</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="item5">
+            <p>Coded with <span style="color: #771212; font-size: 22px;">&#10084</span> <span>by Ömer
+                    Faruk<a href="mail to:ofozsahin.gmail.com"></a>
+                    <span class="material-symbols-outlined icon" style="color:  #771212; font-size:20px;">
+                        mail
+                    </span> </p>
+        </div>
+    </div>
+
+    <script>
+        function hideMenu() {
+            document.getElementById('navLink').style.right = '-200px';
+        }
+        function showMenu() {
+            document.getElementById('navLink').style.right = '0';
+        }
+    </script>
+
+</body>
+
+</html>
