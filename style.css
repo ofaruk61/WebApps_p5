@@ -136,6 +136,8 @@ nav .side {
 }
 
 @media (max-width:768px) {
+    /* güzel olmuş elinize sağlık */
+    /* biraz daha renklendirilip süslenebilir */
     .grid-container {
         grid-template-rows: 75px auto auto auto 60px;
         grid-template-areas:
@@ -160,9 +162,9 @@ nav .side {
     }
 
     .nav-link {
-        position: absolute;
+        position: fixed;
         background: rgba(184, 81, 81, .7);
-        height: 55vh;
+        height: 100vh;
         width: 200px;
         top: 0;
         right: -200px;
@@ -192,6 +194,15 @@ nav .side {
     .nav-link ul li:hover::after {
         width: 100%;
         transition: 0.5s;
+    }
+    .item2 {
+        margin: 10px;
+    }
+    .item3 {
+        margin: 10px;
+    }
+    .item4 {
+        margin: 10px;
     }
     
 }
