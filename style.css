@@ -46,7 +46,8 @@ nav {
 }
 
 .nav-link ul li a {
-    color: #0c0a0a;
+    color: #2106a7;
+    font-weight: bold;
     text-decoration: none;
     font-size: 16px;
 }
@@ -73,9 +74,10 @@ nav .side {
     grid-area: menu;
     padding: 15px;
     background-color: rgba(133, 93, 93, 0.5);
-    color: white;
+    color: rgb(47, 10, 196);
     font-size: 22px;
     border-radius: 10px;
+    font-weight: bold;
 }
 
 .item3 {
@@ -83,8 +85,9 @@ nav .side {
     grid-area: main;
     text-align: justify;
     background-color: rgba(133, 93, 93, 0.5);
-    color: white;
+    color: rgb(47, 10, 196);
     font-size: 22px;
+    font-weight: bold;
     border-radius: 10px;
 }
 
@@ -97,26 +100,32 @@ nav .side {
     display: flex;
     flex-direction: column;
 }
+
 .item3-sol {
     flex: 1;
 }
+
 .item3-sag {
     flex: 1;
 }
+
 .item4 {
     grid-area: right;
     padding: 15px;
     background-color: rgba(133, 93, 93, 0.5);
-    color: white;
+    color: rgb(47, 10, 196);
+    font-weight: bold;
     font-size: 22px;
     border-radius: 10px;
 }
+
 .item5 {
     grid-area: footer;
     text-align: center;
     color: white;
     font-size: 22px;
 }
+
 .grid-container {
     display: grid;
     gap: 15px;
@@ -160,9 +169,9 @@ nav .side {
     }
 
     .nav-link {
-        position: absolute;
+        position: fixed;
         background: rgba(184, 81, 81, .7);
-        height: 55vh;
+        height: 100vh;
         width: 200px;
         top: 0;
         right: -200px;
@@ -193,11 +202,16 @@ nav .side {
         width: 100%;
         transition: 0.5s;
     }
-    
+    .item2 {
+        margin: 10px;
+    }
+    .item3 {
+        margin: 10px;
+    }
+    .item4 {
+        margin: 10px;
+    }
 }
-
-
-
 
 .material-symbols-outlined {
     font-variation-settings:
